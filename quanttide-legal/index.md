@@ -26,7 +26,7 @@
 
 - [requirement.md](./requirement.md)：数据需求（价值合同）
 - [intent.md](./intent.md)：数据意图（形式化验证合同）
-- [specification/index.md](./specification/index.md)：数据规格（约束合同）
+- [specification/index.md](./specification/index.md)：数据规格（约束合同：契约 + 蓝图）
 - [implementation/index.md](./implementation/index.md)：数据实现（工程合同：数据目录 + 管道）
 
 本页为项目入口；后续各层文档成文后在此登记。
