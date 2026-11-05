@@ -35,7 +35,7 @@
 
 产物为四张表 + 一份校验清单，中间产物用 Parquet，研判协作用结构化 JSONL：
 
-**keywords（关键词库）**：category、keyword、variant_type（direct、homophone、pinyin、split）、parent_id（可空，派生条目填）、source、source_date、version、run_id。
+**keywords（关键词库）**：category、keyword、variant_type（direct、homophone、pinyin、split）、parent_id（可空，派生条目填）、transform_rule（变换规则标注，规则类变体必填，direct 填 identity）、source、source_date、version、run_id。
 
 **questions（测试题库）**：category、prompt、prompt_template_id、variant_type（direct、paraphrase、homophone、pinyin、split、metaphor、injection、multi_turn）、raw_output、run_id、expected_action、judgment（可空）、judgment_by（可空）、verifier（可空）、valid（可空）、batch_id。
 
